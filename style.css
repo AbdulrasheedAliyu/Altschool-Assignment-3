@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .container {
+    width: 1440px;
+    height: 1170px;
+    position: relative;
+    top: -139px;
+    left: -101px;
+    background: #F5F8FA;
+  }
+  
+  .navbar {
+    width: 1358px;
+    height: 2px;
+    position: absolute;
+    top: 99px;
+    left: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+    color: #FFFFFF;
+  }
+  
+  .panel {
+    width: 892px;
+    height: 845px;
+    position: absolute;
+    top: 186px;
+    left: 262px;
+    border-radius: 0px 6px 6px 0px;
+    background: #FFFFFF;
+  }
+  
+  .title-rectangle {
+    width: 580px;
+    height: 54px;
+    position: absolute;
+    top: 227px;
+    left: 310px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    background: #1D2C3C;
+    box-shadow: 0px 4px 4px 0px #00000040;
+  }
+  
+  .info-section, .payment-section {
+    width: 580px;
+    position: absolute;
+  }
+  
+  .info-section {
+    height: 221px;
+    top: 341px;
+    left: 262px;
+  }
+  
+  .payment-section {
+    height: 154px;
+    top: 595px;
+    left: 262px;
+    border: 2px solid #548BC5;
+    text-align: center;
+  }
+  
+  .section-title {
+    width: 220px;
+    height: 32px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.1599999964237213px;
+    text-align: left;
+    background: #1D2C3C;
+    color: #FFFFFF;
+  }
+  
+  .buy-button-rectangle {
+    width: 483px;
+    height: 146.1px;
+    position: absolute;
+    top: 788px;
+    left: 311px;
+  }
+  
+  .buy-button-rectangle button {
+    width: 483px;
+    height: 22px;
+    top: 801px;
+    left: 311px;
+    background: #038E7D;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.39600005745887756px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .sidebar {
+    width: 312px;
+    height: 795px;
+    position: absolute;
+    top: 186px;
+    left: 842px;
+    border-radius: 0px 6px 6px 0px;
+    background: #1179BF;
+  }
+  
+  .sidebar-title {
+    width: 93px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.009999999776482582px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  
+  .price-info {
+    width: 121px;
+    height: 72px;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 72px;
+    letter-spacing: -0.014999999664723873px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features li {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.014999999664723873px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  
+  .testimonial {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.014999999664723873px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  
